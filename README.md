@@ -56,13 +56,14 @@ Here's an example of how a node in the text file is represented:
 
 
 Root Node (Entropy: 0.826, Gini Impurity: 0.497)
+
    |-- Feature A: Value 1
-   |   |-- Leaf Node (Entropy: 0.000, Gini Impurity: 0.000)
-   |   |-- Leaf Node (Entropy: 0.811, Gini Impurity: 0.480)
-   |
+       |-- Leaf Node (Entropy: 0.000, Gini Impurity: 0.000)
+       |-- Leaf Node (Entropy: 0.811, Gini Impurity: 0.480)
+   
    |-- Feature B: Value 2
-   |   |-- Leaf Node (Entropy: 0.918, Gini Impurity: 0.512)
-   |   |-- Leaf Node (Entropy: 0.562, Gini Impurity: 0.320)
+       |-- Leaf Node (Entropy: 0.918, Gini Impurity: 0.512)
+       |-- Leaf Node (Entropy: 0.562, Gini Impurity: 0.320)
 
 ## Conclusion
 The text file is a valuable component of the code, helping to document, understand, and share the decision tree model's structure. It aids in explaining how the model makes decisions and is a useful resource for collaborators and users of the code.
