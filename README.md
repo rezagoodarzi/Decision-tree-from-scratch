@@ -15,8 +15,9 @@ You also need to have two CSV files, 'train.csv' and 'test.csv,' in the same dir
 The decision tree is printed in a tree-like format, including information about the Entropy and Gini impurity values at each node. You can also save the tree structure to a text file.
 
 # Usage
-1-open the decision tree_test folder
-2-run main.py
+
+- open the decision tree_test folder
+-  run main.py
 
 # License
 [GNU]
